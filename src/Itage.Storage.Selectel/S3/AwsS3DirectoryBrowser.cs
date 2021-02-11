@@ -1,15 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using Amazon.S3;
 using Amazon.S3.Model;
 using NetBox.Async;
 using Storage.Net;
 using Storage.Net.Blobs;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace Egw.SelectelClient.S3
+namespace Itage.Storage.Selectel.S3
 {
     internal class AwsS3DirectoryBrowser : IDisposable
     {

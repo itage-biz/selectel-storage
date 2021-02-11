@@ -1,10 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Threading;
-using System.Threading.Tasks;
 using Amazon.Runtime;
 using Amazon.S3;
 using Amazon.S3.Model;
@@ -12,8 +5,15 @@ using NetBox.Extensions;
 using Storage.Net;
 using Storage.Net.Blobs;
 using Storage.Net.Streaming;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace Egw.SelectelClient.S3
+namespace Itage.Storage.Selectel.S3
 {
     /// <summary>Amazon S3 storage adapter for blobs</summary>
     internal class SelectelAwsS3BlobStorage : IBlobStorage

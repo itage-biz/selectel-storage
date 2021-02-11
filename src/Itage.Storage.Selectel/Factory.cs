@@ -1,6 +1,6 @@
 using System.Net;
 using Amazon.S3;
-using Egw.SelectelClient.S3;
+using Itage.Storage.Selectel.S3;
 using Storage.Net.Blobs;
 using Storage.Net.ConnectionString;
 using Storage.Net.Messaging;
